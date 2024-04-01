@@ -1,0 +1,220 @@
+/*
+    Stylesheet: styles.css
+    Description: Este arquivo contém a estilização para o aplicativo. Foi feito com a ajuda do ChatGPT para fornecer os estilos visuais desejados
+*/
+
+/*Estilo do botao play*/
+#play {
+    -fx-background-color: #CA2525;
+    -fx-background-radius: 60px; 
+    -fx-border-radius: 60px; 
+    -fx-font-family: "Arial"; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 28px; 
+    -fx-padding: 12px 30px; 
+    -fx-border-color: #CA2525;
+    -fx-border-width: 2px;
+    -fx-text-decoration: none;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 0, 0, 0, 0); 
+    -fx-transition-duration: 0.5s; 
+    -fx-cursor: hand; 
+}
+
+#play:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #CA2525;
+    -fx-text-decoration: none;
+    -fx-scale-x: 1.1; 
+    -fx-scale-y: 1.1;
+}
+
+
+
+/*Estilo da choiceBox vermelha*/
+#choiceBoxRed {
+    -fx-background-color: transparent; 
+    -fx-background-radius: 30px; 
+    -fx-border-radius: 30px; 
+    -fx-border-color: #CA2525;
+    -fx-border-width: 2px;
+    -fx-font-family: "Arial"; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: #CA2525; 
+    -fx-font-size: 16px; 
+    -fx-padding: 0px; 
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 0, 0, 0, 0);
+    -fx-transition-duration: 0.5s; 
+    -fx-cursor: hand; 
+}
+
+#choiceBoxRed .label {
+    -fx-text-fill: #CA2525; 
+}
+
+#choiceBoxRed .arrow {
+    -fx-background-color: #CA2525; 
+}
+
+
+#choiceBoxRed .context-menu {
+    -fx-background-radius: 20px; 
+}
+
+#choiceBoxRed .menu-item {
+    -fx-background-color: transparent; 
+    -fx-border-color: transparent;
+}
+
+#choiceBoxRed .menu-item:hover {
+    -fx-background-color: transparent;
+    -fx-border-color: red; 
+    -fx-border-radius: 20px; 
+    -fx-border-width: 2px;
+}
+
+#choiceBoxRed:hover {
+    -fx-scale-x: 1.025; 
+    -fx-scale-y: 1.025; 
+}
+
+
+
+/*Estilo da choiceBox azul*/
+#choiceBoxBlue {
+    -fx-background-color: transparent; 
+    -fx-background-radius: 30px; 
+    -fx-border-radius: 30px; 
+    -fx-border-color: #2525CA;
+    -fx-border-width: 2px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold; 
+    -fx-text-fill: #2525CA; 
+    -fx-font-size: 16px; 
+    -fx-padding: 0px; 
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 0, 0, 0, 0);
+    -fx-transition-duration: 0.5s; 
+    -fx-cursor: hand; 
+}
+
+#choiceBoxBlue .label {
+    -fx-text-fill: #2525CA;
+}
+
+#choiceBoxBlue .context-menu {
+    -fx-background-radius: 20px; 
+}
+
+#choiceBoxBlue .menu-item {
+    -fx-background-color: transparent; 
+    -fx-border-color: transparent; 
+}
+
+#choiceBoxBlue .menu-item:hover {
+    -fx-background-color: transparent;
+    -fx-border-color: blue;
+    -fx-border-radius: 20px; 
+    -fx-border-width: 2px;
+}
+
+#choiceBoxBlue:hover {
+    -fx-scale-x: 1.025; 
+    -fx-scale-y: 1.025; 
+}
+#choiceBoxBlue .label {
+    -fx-text-fill: #2525CA;; 
+}
+
+
+/*Estilo do botao reset*/
+#reset {
+    -fx-background-radius: 50%; 
+    -fx-border-radius: 50%; 
+    -fx-font-family: Arial;
+    -fx-text-fill: #c92524; 
+    -fx-font-size: 20px;
+    -fx-background-color: rgba(201, 37, 36, 0.2); 
+    -fx-padding: 8px 20px 10px 20px;
+    -fx-border-width: 4px;
+    -fx-border-color: #c92020; 
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s;
+}
+
+#reset:hover {
+    -fx-scale-x: 1.025; 
+    -fx-scale-y: 1.025; 
+    -fx-transition: all 0.3s;
+}
+
+
+/*Estilo do botao home*/
+#home {
+    -fx-background-radius: 40%;
+    -fx-border-radius: 50%; 
+    -fx-font-family: Arial;
+    -fx-text-fill: #2525CA; 
+    -fx-font-size: 20px;
+    -fx-background-color: rgba(37, 37, 202, 0.2);
+    -fx-padding: 8px 20px 10px 20px;
+    -fx-border-width: 4px; 
+    -fx-border-color: #2525CA; 
+    -fx-cursor: hand; 
+    -fx-transition: all 0.3s;
+}
+
+#home:hover {
+    -fx-scale-x: 1.025; 
+    -fx-scale-y: 1.025; 
+    -fx-transition: all 0.3s;
+}
+
+
+/*Estilo do slider vemelho*/
+#sliderRed .track {
+    -fx-background-color: #808080; 
+}
+
+#sliderRed .thumb {
+    -fx-background-color: #c92524; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 90px; 
+    -fx-min-height: 90px; 
+    -fx-cursor: hand; 
+}
+
+#sliderRed .thumb:hover {
+    -fx-background-color: #871a1a;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+
+/*Estilo do slider azul */
+#sliderBlue .track {
+    -fx-background-color: #808080; 
+}
+
+#sliderBlue .thumb {
+    -fx-background-color: #3225CA; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 90px; 
+    -fx-min-height: 90px; 
+    -fx-cursor: hand; 
+}
+
+#sliderBlue .thumb:hover {
+    -fx-background-color: #211882; 
+    -fx-scale-x: 1.025; 
+    -fx-scale-y: 1.025; 
+}
+
+
+
+
+
+
+
+
+
+
