@@ -4,5 +4,5 @@ UESB - Programação Concorrente (3ºSemestre) / 2024
 
 1- Problema dos trens
 
-![Captura de tela 2024-07-18 115332](https://github.com/user-attachments/assets/cb0a72d2-a6c6-430a-8753-68ed93ef3608)
+https://github.com/user-attachments/assets/6313469b-b129-49ad-ad82-7ddf0afaa27f
 
