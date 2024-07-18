@@ -1,0 +1,763 @@
+/* ***************************************************************
+* Autor............: Amanda Oliveira da Paz Santos
+* Matricula........: 202310143
+* Inicio...........: 05/06/2023
+* Ultima alteracao.: 14/06/2023
+* Nome.............: style
+* Funcao...........: Este arquivo contem a estilizacao para o aplicativo. Foi feito com a ajuda do ChatGPT
+ para fornecer os estilos visuais desejados
+****************************************************************/
+
+
+
+
+
+/*Estilo do botao play**************************************/
+#play {
+    -fx-background-color: #f75285;
+    -fx-background-radius: 60px; 
+    -fx-border-radius: 60px; 
+    -fx-font-family: "Arial"; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 30px; 
+    -fx-padding: 15px 55px;
+    -fx-border-color: #f2c0d0;
+    -fx-border-width: 3px; 
+    -fx-text-decoration: none;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 0, 0, 0, 0); 
+    -fx-transition-duration: 0.5s; 
+    -fx-cursor: hand; 
+}
+
+#play:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #f75285;
+    -fx-border-color: #f75285;
+    -fx-text-decoration: none;
+}
+/***************************************************************/
+
+
+
+
+
+
+
+
+
+/*Estilo do botao reset**************************************/
+#reset {
+    -fx-background-radius: 50%; 
+    -fx-border-radius: 50%; 
+    -fx-font-family: Arial;
+    -fx-font-weight: bold; 
+    -fx-text-fill: #e9178d; 
+    -fx-font-size: 14px;
+    -fx-background-color: rgba(0, 0, 0, 0.2); 
+    -fx-min-width: 70px;  
+    -fx-min-height: 40px;  
+    -fx-max-width: 70px;  
+    -fx-max-height: 40px;  
+    -fx-border-width: 2px;
+    -fx-border-color: #e9178d; 
+    -fx-cursor: hand;
+}
+#reset:hover {
+    -fx-border-width: 3px;  
+}
+/***************************************************************/
+
+
+
+
+
+
+
+
+
+/*Estilo dos botoes de pause dos swifties***************************************/
+#pausar_swiftie0 {
+    -fx-background-radius: 20%; 
+    -fx-border-radius: 20%; 
+    -fx-font-family: Arial;
+    -fx-text-fill: #273fd6; 
+    -fx-font-size:10px;
+    -fx-background-color: transparent; 
+    -fx-min-width: 60px;  
+    -fx-min-height: 30px;  
+    -fx-max-width: 60px;  
+    -fx-max-height: 30px;  
+    -fx-border-width: 1px;
+    -fx-border-color: #273fd6; 
+    -fx-cursor: hand;
+}
+#pausar_swiftie0:hover {
+    -fx-border-width: 2px;  
+
+}
+#pausar_swiftie1 {
+    -fx-background-radius: 20%; 
+    -fx-border-radius: 20%; 
+    -fx-font-family: Arial;
+    -fx-text-fill: #fe5489; 
+    -fx-font-size:10px;
+    -fx-background-color: transparent; 
+    -fx-min-width: 60px;  
+    -fx-min-height: 30px;  
+    -fx-max-width: 60px;  
+    -fx-max-height: 30px;  
+    -fx-border-width: 1px;
+    -fx-border-color: #fe5489; 
+    -fx-cursor: hand;
+}
+#pausar_swiftie1:hover {
+    -fx-border-width: 2px;  
+
+}
+#pausar_swiftie2 {
+    -fx-background-radius: 20%; 
+    -fx-border-radius: 20%; 
+    -fx-font-family: Arial;
+    -fx-text-fill: #7209b7; 
+    -fx-font-size:10px;
+    -fx-background-color: transparent; 
+    -fx-min-width: 60px;  
+    -fx-min-height: 30px;  
+    -fx-max-width: 60px;  
+    -fx-max-height: 30px;  
+    -fx-border-width: 1px;
+    -fx-border-color: #7209b7; 
+    -fx-cursor: hand;
+}
+#pausar_swiftie2:hover {
+    -fx-border-width: 2px;  
+
+}
+#pausar_swiftie3 {
+    -fx-background-radius: 20%; 
+    -fx-border-radius: 20%; 
+    -fx-font-family: Arial;
+    -fx-text-fill: #4cc9f0; 
+    -fx-font-size:10px;
+    -fx-background-color: transparent; 
+    -fx-min-width: 60px;  
+    -fx-min-height: 30px;  
+    -fx-max-width: 60px;  
+    -fx-max-height: 30px;  
+    -fx-border-width: 1px;
+    -fx-border-color: #4cc9f0; 
+    -fx-cursor: hand;
+}
+#pausar_swiftie3:hover {
+    -fx-border-width: 2px;  
+
+}
+#pausar_swiftie4 {
+    -fx-background-radius: 20%; 
+    -fx-border-radius: 20%; 
+    -fx-font-family: Arial;
+    -fx-text-fill: #000000; 
+    -fx-font-size:10px;
+    -fx-background-color: transparent; 
+    -fx-min-width: 60px;  
+    -fx-min-height: 30px;  
+    -fx-max-width: 60px;  
+    -fx-max-height: 30px;  
+    -fx-border-width: 1px;
+    -fx-border-color: #000000; 
+    -fx-cursor: hand;
+}
+#pausar_swiftie4:hover {
+    -fx-border-width: 2px;  
+
+}
+/********************************************************************************/
+
+
+
+
+
+
+
+
+
+/*Estilo do slider de download e reproducao de cada swiftie***************************************/
+#slider_download0 .track {
+    -fx-background-color: #273fd6; 
+}
+
+#slider_download0 .thumb {
+    -fx-background-color: #6f7fe8; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_download0 .thumb:hover {
+    -fx-background-color: #18257c;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+#slider_download1 .track {
+    -fx-background-color: #fe5489; 
+}
+
+#slider_download1 .thumb {
+    -fx-background-color: #eea2ba; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_download1 .thumb:hover {
+    -fx-background-color: #9d3455;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+#slider_download2 .track {
+    -fx-background-color: #7209b7; 
+}
+
+#slider_download2 .thumb {
+    -fx-background-color: #bf91de; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_download2 .thumb:hover {
+    -fx-background-color: #4c057a;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_download3 .track {
+    -fx-background-color: #4cc9f0; 
+}
+
+#slider_download3 .thumb {
+    -fx-background-color: #97d8eb; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_download3 .thumb:hover {
+    -fx-background-color: #276578;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+#slider_download4 .track {
+    -fx-background-color: #868686; 
+}
+
+#slider_download4 .thumb {
+    -fx-background-color: #b2b2b3; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_download4 .thumb:hover {
+    -fx-background-color: #2d2d2d;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_reproducao0 .track {
+    -fx-background-color: #273fd6; 
+}
+
+#slider_reproducao0 .thumb {
+    -fx-background-color: #6f7fe8; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_reproducao0 .thumb:hover {
+    -fx-background-color: #18257c;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+#slider_reproducao1 .track {
+    -fx-background-color: #fe5489; 
+}
+
+#slider_reproducao1 .thumb {
+    -fx-background-color: #eea2ba; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_reproducao1 .thumb:hover {
+    -fx-background-color: #9d3455;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+#slider_reproducao2 .track {
+    -fx-background-color: #7209b7; 
+}
+
+#slider_reproducao2 .thumb {
+    -fx-background-color: #bf91de; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_reproducao2 .thumb:hover {
+    -fx-background-color: #4c057a;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_reproducao3 .track {
+    -fx-background-color: #4cc9f0; 
+}
+
+#slider_reproducao3 .thumb {
+    -fx-background-color: #97d8eb; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_reproducao3 .thumb:hover {
+    -fx-background-color: #276578;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+#slider_reproducao4 .track {
+    -fx-background-color: #868686; 
+}
+
+#slider_reproducao4 .thumb {
+    -fx-background-color: #b2b2b3; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_reproducao4 .thumb:hover {
+    -fx-background-color: #2d2d2d;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+/*********************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilo dos sliders  de carregamento e upload dos albums***************************************/
+#slider_carregamento0 .track {
+    -fx-background-color: #e9178d; 
+}
+
+#slider_carregamento0 .thumb {
+    -fx-background-color: #eb88c0; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_carregamento0 .thumb:hover {
+    -fx-background-color: #841052;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_carregamento1 .track {
+    -fx-background-color: #e9178d; 
+}
+
+#slider_carregamento1 .thumb {
+    -fx-background-color: #eb88c0; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_carregamento1 .thumb:hover {
+    -fx-background-color: #841052;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_carregamento2 .track {
+    -fx-background-color: #e9178d; 
+}
+
+#slider_carregamento2 .thumb {
+    -fx-background-color: #eb88c0; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_carregamento2 .thumb:hover {
+    -fx-background-color: #841052;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_carregamento3 .track {
+    -fx-background-color: #e9178d; 
+}
+
+#slider_carregamento3 .thumb {
+    -fx-background-color: #eb88c0; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_carregamento3 .thumb:hover {
+    -fx-background-color: #841052;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_carregamento4 .track {
+    -fx-background-color: #e9178d; 
+}
+
+#slider_carregamento4 .thumb {
+    -fx-background-color: #eb88c0; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_carregamento4 .thumb:hover {
+    -fx-background-color: #841052;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_upload0 .track {
+    -fx-background-color: #e9178d; 
+}
+
+#slider_upload0 .thumb {
+    -fx-background-color: #eb88c0; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_upload0 .thumb:hover {
+    -fx-background-color: #841052;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+#slider_upload1 .track {
+    -fx-background-color: #e9178d; 
+}
+
+#slider_upload1 .thumb {
+    -fx-background-color: #eb88c0; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_upload1 .thumb:hover {
+    -fx-background-color: #841052;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+#slider_upload2 .track {
+    -fx-background-color: #e9178d; 
+}
+
+#slider_upload2 .thumb {
+    -fx-background-color: #eb88c0; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_upload2.thumb:hover {
+    -fx-background-color: #841052;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+#slider_upload3 .track {
+    -fx-background-color: #e9178d; 
+}
+
+#slider_upload3 .thumb {
+    -fx-background-color: #eb88c0; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_upload3 .thumb:hover {
+    -fx-background-color: #841052;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+#slider_upload4 .track {
+    -fx-background-color: #e9178d; 
+}
+
+#slider_upload4 .thumb {
+    -fx-background-color: #eb88c0; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_upload4 .thumb:hover {
+    -fx-background-color: #841052;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+/***********************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilo das progress bars dos albums***************************************/
+#progress_bar_album0 {
+    -fx-pref-height: 30px; 
+    -fx-padding: 10px; 
+}
+
+#progress_bar_album0 .track {
+    -fx-background-color: black; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+
+#progress_bar_album0 .bar {
+    -fx-background-color: #fc1799; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+#progress_bar_album1 {
+    -fx-pref-height: 30px; 
+    -fx-padding: 10px; 
+}
+
+#progress_bar_album1 .track {
+    -fx-background-color: black; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+
+#progress_bar_album1 .bar {
+    -fx-background-color: #fc1799; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+
+#progress_bar_album2 {
+    -fx-pref-height: 30px; 
+    -fx-padding: 10px; 
+}
+
+#progress_bar_album2 .track {
+    -fx-background-color: black; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+
+#progress_bar_album2 .bar {
+    -fx-background-color: #fc1799; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+#progress_bar_album3 {
+    -fx-pref-height: 30px; 
+    -fx-padding: 10px; 
+}
+
+#progress_bar_album3 .track {
+    -fx-background-color: black; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+
+#progress_bar_album3 .bar {
+    -fx-background-color: #fc1799; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+#progress_bar_album4 {
+    -fx-pref-height: 30px; 
+    -fx-padding: 10px; 
+}
+
+#progress_bar_album4 .track {
+    -fx-background-color: black; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+
+#progress_bar_album4 .bar {
+    -fx-background-color: #fc1799; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+
+/**************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilo das progress bars dos swifties***************************************/
+#progress_bar_swiftie0 {
+    -fx-pref-height: 30px; 
+    -fx-padding: 10px; 
+}
+
+#progress_bar_swiftie0 .track {
+    -fx-background-color: rgb(255, 255, 255); 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px;
+}
+
+#progress_bar_swiftie0 .bar {
+    -fx-background-color: #273fd6; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+#progress_bar_swiftie1 {
+    -fx-pref-height: 30px; 
+    -fx-padding: 10px; 
+}
+
+#progress_bar_swiftie1 .track {
+    -fx-background-color: rgb(255, 255, 255); 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px;
+}
+
+#progress_bar_swiftie1 .bar {
+    -fx-background-color: #fe5489; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+#progress_bar_swiftie2 {
+    -fx-pref-height: 30px; 
+    -fx-padding: 10px; 
+}
+
+#progress_bar_swiftie2 .track {
+    -fx-background-color: rgb(255, 255, 255); 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px;
+}
+
+#progress_bar_swiftie2 .bar {
+    -fx-background-color: #7209b7; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+#progress_bar_swiftie3 {
+    -fx-pref-height: 30px; 
+    -fx-padding: 10px; 
+}
+
+#progress_bar_swiftie3 .track {
+    -fx-background-color: rgb(255, 255, 255); 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px;
+}
+
+#progress_bar_swiftie3 .bar {
+    -fx-background-color: #4cc9f0; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+
+#progress_bar_swiftie4 {
+    -fx-pref-height: 30px; 
+    -fx-padding: 10px; 
+}
+
+#progress_bar_swiftie4 .track {
+    -fx-background-color: rgb(255, 255, 255); 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px;
+}
+
+#progress_bar_swiftie4 .bar {
+    -fx-background-color: #000000; 
+    -fx-background-radius: 15px; 
+    -fx-padding: 0;
+    -fx-pref-height: 30px; 
+}
+
+/****************************************************************************/

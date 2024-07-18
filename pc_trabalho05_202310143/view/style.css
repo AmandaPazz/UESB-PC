@@ -1,0 +1,198 @@
+/* ***************************************************************
+* Autor............: Amanda Oliveira da Paz Santos
+* Matricula........: 202310143
+* Inicio...........: 24/06/2023
+* Ultima alteracao.: 30/06/2023
+* Nome.............: style
+* Funcao...........: Este arquivo contem a estilizacao para o aplicativo. Foi feito com a ajuda do ChatGPT
+ para fornecer os estilos visuais desejados
+****************************************************************/
+
+
+
+/*Estilo do botao play**************************************/
+#play {
+    -fx-background-color: #ef6812;
+    -fx-background-radius: 60px; 
+    -fx-border-radius: 60px; 
+    -fx-font-family: "Arial"; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 30px; 
+    -fx-padding: 15px 55px;
+    -fx-border-color: #ed9964;
+    -fx-border-width: 3px; 
+    -fx-text-decoration: none;
+    -fx-transition-duration: 0.5s; 
+    -fx-cursor: hand; 
+}
+
+#play:hover {
+    -fx-background-color: #2c362d;
+    -fx-text-fill: #ef6812;
+    -fx-border-color: #ef6812;
+    -fx-text-decoration: none;
+}
+/***************************************************************/
+
+
+
+
+/*Estilo dos sliders de velocidade***************************************/
+#slider_vermelho .track {
+    -fx-background-color: #9e2826; 
+}
+
+#slider_vermelho .thumb {
+    -fx-background-color: #b64f4d; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_vermelho .thumb:hover {
+    -fx-background-color: #5d2b2a;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_cinza .track {
+    -fx-background-color: #848484; 
+}
+
+#slider_cinza .thumb {
+    -fx-background-color: #b7b6b6; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_cinza  .thumb:hover {
+    -fx-background-color: #444444;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+#slider_preto .track {
+    -fx-background-color: #383838; 
+}
+
+#slider_preto .thumb {
+    -fx-background-color: #807f7f; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_preto  .thumb:hover {
+    -fx-background-color: #101010;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+#slider_ciano .track {
+    -fx-background-color: #3e808a
+    ; 
+}
+
+#slider_ciano .thumb {
+    -fx-background-color: #53a7b4
+    ; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_ciano  .thumb:hover {
+    -fx-background-color: #1f3f44
+    ;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_verde .track {
+    -fx-background-color: #68b61b
+    ; 
+}
+
+#slider_verde .thumb {
+    -fx-background-color: #7ec339
+    ; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_verde  .thumb:hover {
+    -fx-background-color: #477916
+    ;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_rosa .track {
+    -fx-background-color: #b61c98
+    ; 
+}
+
+#slider_rosa .thumb {
+    -fx-background-color: #df24ba
+    ; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_rosa  .thumb:hover {
+    -fx-background-color: #7c1367
+    ;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_roxo .track {
+    -fx-background-color: #8f1cb4
+    ; 
+}
+
+#slider_roxo .thumb {
+    -fx-background-color: #a721d4
+    ; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_roxo  .thumb:hover {
+    -fx-background-color: #58116f
+    ;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+
+#slider_azul .track {
+    -fx-background-color: #2a15b7
+    ; 
+}
+
+#slider_azul .thumb {
+    -fx-background-color: #4028d9
+    ; 
+    -fx-background-radius: 50px; 
+    -fx-min-width: 50px; 
+    -fx-min-height: 50px; 
+    -fx-cursor: hand; 
+}
+
+#slider_azul  .thumb:hover {
+    -fx-background-color: #1c0d79
+    ;
+    -fx-scale-x: 1.025;
+    -fx-scale-y: 1.025;
+}
+

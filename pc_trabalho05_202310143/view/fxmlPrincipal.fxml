@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerPrincipal">
+   <children>
+      <ImageView pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/background.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="track_vermelho" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/track_vermelho.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="track_cinza" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/track_cinza.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="track_preto" layoutX="1.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/track_preto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="track_ciano" layoutX="-3.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/track_ciano.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="track_verde" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/track_verde.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="track_rosa" layoutX="6.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/track_rosa.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="track_roxo" layoutX="3.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/track_roxo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="track_azul" layoutX="1.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/track_azul.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carro_vermelho" fitHeight="16.0" fitWidth="40.0" layoutX="505.0" layoutY="618.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/carro_vermelho.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carro_preto" fitHeight="16.0" fitWidth="40.0" layoutX="467.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../img/carro_preto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carro_cinza" fitHeight="16.0" fitWidth="40.0" layoutX="589.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../img/carro_cinza.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carro_ciano" fitHeight="16.0" fitWidth="40.0" layoutX="628.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/carro_ciano.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carro_verde" fitHeight="16.0" fitWidth="40.0" layoutX="434.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../img/carro_verde.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carro_rosa" fitHeight="16.0" fitWidth="40.0" layoutX="468.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@../img/carro_rosa.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carro_roxo" fitHeight="16.0" fitWidth="40.0" layoutX="262.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/carro_roxo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carro_azul" fitHeight="16.0" fitWidth="40.0" layoutX="589.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../img/carro_azul.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="slider_vermelho" layoutX="21.0" layoutY="186.0" min="1.0" prefHeight="14.0" prefWidth="178.0" stylesheets="@style.css" value="50.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Slider>
+      <ImageView fx:id="pausar_vermelho" layoutX="24.0" layoutY="208.0" onMouseClicked="#pausar_carro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pausar.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="show_vermelho" layoutX="111.0" layoutY="208.0" onMouseClicked="#show_track" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/track_off.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Slider fx:id="slider_cinza" layoutX="22.0" layoutY="310.0" min="1.0" prefHeight="14.0" prefWidth="178.0" stylesheets="@style.css" value="50.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Slider>
+      <ImageView fx:id="pausar_cinza" layoutX="23.0" layoutY="333.0" onMouseClicked="#pausar_carro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pausar.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="show_cinza" layoutX="110.0" layoutY="333.0" onMouseClicked="#show_track" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/track_off.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Slider fx:id="slider_preto" layoutX="26.0" layoutY="433.0" min="1.0" prefHeight="14.0" prefWidth="178.0" stylesheets="@style.css" value="50.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Slider>
+      <ImageView fx:id="pausar_preto" layoutX="24.0" layoutY="456.0" onMouseClicked="#pausar_carro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pausar.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="show_preto" layoutX="111.0" layoutY="456.0" onMouseClicked="#show_track" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/track_off.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Slider fx:id="slider_ciano" layoutX="25.0" layoutY="561.0" min="1.0" prefHeight="14.0" prefWidth="178.0" stylesheets="@style.css" value="50.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Slider>
+      <ImageView fx:id="pausar_ciano" layoutX="25.0" layoutY="586.0" onMouseClicked="#pausar_carro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pausar.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="show_ciano" layoutX="115.0" layoutY="586.0" onMouseClicked="#show_track" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/track_off.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Slider fx:id="slider_verde" layoutX="904.0" layoutY="87.0" min="1.0" prefHeight="14.0" prefWidth="178.0" stylesheets="@style.css" value="50.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Slider>
+      <ImageView fx:id="pausar_verde" layoutX="906.0" layoutY="109.0" onMouseClicked="#pausar_carro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pausar.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="show_verde" layoutX="995.0" layoutY="109.0" onMouseClicked="#show_track" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/track_off.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Slider fx:id="slider_rosa" layoutX="903.0" layoutY="237.0" min="1.0" prefHeight="14.0" prefWidth="178.0" stylesheets="@style.css" value="50.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Slider>
+      <ImageView fx:id="pausar_rosa" layoutX="905.0" layoutY="261.0" onMouseClicked="#pausar_carro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pausar.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="show_rosa" layoutX="992.0" layoutY="261.0" onMouseClicked="#show_track" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/track_off.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Slider fx:id="slider_roxo" layoutX="901.0" layoutY="389.0" min="1.0" prefHeight="14.0" prefWidth="178.0" stylesheets="@style.css" value="50.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Slider>
+      <ImageView fx:id="pausar_roxo" layoutX="906.0" layoutY="412.0" onMouseClicked="#pausar_carro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pausar.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="show_roxo" layoutX="993.0" layoutY="412.0" onMouseClicked="#show_track" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/track_off.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Slider fx:id="slider_azul" layoutX="901.0" layoutY="536.0" min="1.0" prefHeight="14.0" prefWidth="178.0" stylesheets="@style.css" value="50.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Slider>
+      <ImageView fx:id="pausar_azul" layoutX="904.0" layoutY="562.0" onMouseClicked="#pausar_carro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pausar.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="show_azul" layoutX="991.0" layoutY="562.0" onMouseClicked="#show_track" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/track_off.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="reset" layoutX="40.0" layoutY="65.0" onMouseClicked="#reset" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/reset.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
